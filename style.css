@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Mitr", sans-serif;
+  background: black;
+}
+.nav {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  padding: 10px;
+  background: white;
+}
+.nav ul {
+  padding: 10px;
+  color: black;
+}
+.nav ul a {
+  color: black;
+}
+.nav li a {
+  margin-right: 20px;
+  color: black;
+}
+.nav li a:hover {
+  margin-right: 20px;
+  color: rgb(86, 86, 86);
+}
